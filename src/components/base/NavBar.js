@@ -1,12 +1,15 @@
 import { Link } from "react-router-dom";
-
 export default function NavBar() {
   return (
     <nav>
-      <Link to="/">Main</Link>
-      <Link to="/mainsight">Main Sight</Link>
-      <Link to="/sights">Sights</Link>
-      <Link to="/photos">Photos</Link>
+      <div class="nav-wrapper">
+        <ul id="nav-mobile" class="left hide-on-med-and-down">
+          <li><Link to="/">Main</Link></li>
+          <li><Link to="/mainsight">Main Sight</Link></li>
+          <li><Link to="/sights">Sights</Link></li>
+          <li><Link to="/photos">Photos</Link></li>
+        </ul>
+      </div>
     </nav>
   );
 }
