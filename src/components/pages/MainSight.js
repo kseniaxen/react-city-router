@@ -1,11 +1,11 @@
 
 export default function MainSight() {
-    return (
-      <div class="row">
+  return (
+    <div class="row">
       <div class="col s12 m7">
         <div class="card">
           <div class="card-image">
-            <img src="img/main sight.jpg" alt=""/>
+            <img src="img/main sight.jpg" alt="" />
             <span class="card-title">The old water tower</span>
           </div>
           <div class="card-content">
@@ -17,5 +17,5 @@ export default function MainSight() {
         </div>
       </div>
     </div>
-    );
-  }
+  );
+}

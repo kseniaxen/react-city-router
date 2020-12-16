@@ -8,6 +8,7 @@ export default function NavBar() {
           <li><Link to="/mainsight">Main Sight</Link></li>
           <li><Link to="/sights">Sights</Link></li>
           <li><Link to="/photos">Photos</Link></li>
+          <li><Link to="/form">Form</Link></li>
         </ul>
       </div>
     </nav>
